@@ -14,12 +14,12 @@
 do
 
 function run(msg, matches)
-  return 'DBTeam Bot V1 Supergroups\nAn advanced Administration bot based on yagop/telegram-bot\n\nDevelopers: @MaSkAoS @Josepdal\nSupport: @skneos @iicc1 @Serx666\nChannels: @DBTeamEN @DBTeamES\n\nCheckout: https://github.com/Josepdal/DBTeam\nGNU GPL v2 license.'
+  return 'برای افزودن ربات به گروه خود به ایدی @Creaker پیام دهید.\n\n کانال ربات = @GroupsManager'
 end
 
 return {
   patterns = {
-    "^#version$"
+    "^/help$"
   }, 
   run = run 
 }
