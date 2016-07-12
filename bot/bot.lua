@@ -232,6 +232,15 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
   enabled_plugins = {
+    "Getplugin",
+    "Leave_ban",
+    "Leavegp",
+    "LockUsername",
+    "Saveplugin",
+    "Terminal",
+    "Time",
+    "broadcast",
+    "help",
     "lockfwd",
     "saveplug",
     "arabic",
